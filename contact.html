@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Us | NNN IT Solution Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-section {
+      background: linear-gradient(135deg, #333333, #1a1a1a);
+      padding: 20px;
+      margin: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .input, .input-email, .input-subject, .area {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .input:focus, .input-email:focus, .input-subject:focus, .area:focus {
+      border-color: #333;
+    }
+
+    .area {
+      height: 150px;
+      resize: none;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      color: white;
+      background-color: #333;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #555;
+    }
+
+  </style>
+</head>
+<body background="pics/bg8.jpg">
+
+  <!-- Header Section -->
+  <header class="header">
+    <h1 class="header-title">NNN IT Solution Store</h1>
+    <img src="pics/ap.jpg" alt="NNN IT Logo" class="header-image">
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="nav">
+    <a href="home.html" class="nav-link">Home</a>
+    <a href="computer_parts.html" class="nav-link">Computer Parts</a>
+    <a href="printer.html" class="nav-link">Printers</a>
+    <a href="acer.html" class="nav-link">Acer Laptops</a>
+    <a href="lenovo.html" class="nav-link">Lenovo Laptops</a>
+    <a href="samsung.html" class="nav-link">Samsung Laptops</a>
+    <a href="desktop.html" class="nav-link">Desktop</a>
+    <a href="accessories.html" class="nav-link">Accessories</a>
+    <a href="about.html" class="nav-link">About Us</a>
+     <a href="contact.html" class="nav-link">Contact Us</a>
+  </nav>
+
+  <!-- Contact Us Section -->
+  <section class="contact-section">
+    <h2>CONTACT US</h2>
+    <div class="container">
+      <div class="login">
+        <input type="text" name="name" placeholder="Name" class="input">
+        <input type="text" name="email" placeholder="Email" class="input-email">
+      </div>
+
+      <div class="subject">
+        <input type="text" name="subject" placeholder="Subject" class="input-subject">
+      </div>
+
+      <div class="msg">
+        <textarea name="message" class="area" placeholder="Message"></textarea>
+      </div>
+
+      <div class="submit">
+        <a href="confirm.html" class="buy-button">Send</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    &copy; 2024 Limkokwing University of Creative and Technology. All Rights Reserved.
+  </footer>
+  <script src="script.js"></script> <!-- Link to your JavaScript -->
+</body>
+</html>
